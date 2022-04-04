@@ -19,6 +19,7 @@ const d = [
   [100, 200, 300],
 ];
 const transformed = s.fit_transform(d)
+console.log("mean:", s.mean_, "var:", s.var_)
 console.log("transformed\n", transformed)
 console.log("original\n", s.inverse_transform(transformed));
 ```
