@@ -11,6 +11,7 @@ js version of a subset of [sklearn's StandardScaler](https://scikit-learn.org/st
 ## usage
 ```javascript
 const StandardScaler = require('standardscaler')
+//constructor also takes _mean and _var so you can transform based on fit you already have
 const s = new StandardScaler();
 const d = [
   [1, 2, 3],
